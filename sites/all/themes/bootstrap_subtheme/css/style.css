@@ -1,0 +1,254 @@
+/**
+ * Place your custom styles here.
+ */
+
+
+
+
+h1.page-header{
+    display: none;
+}
+
+
+
+.name.navbar-brand{
+    display: none;
+}
+
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    background-color:#66176C;
+    color: #fff;
+}
+
+
+.navbar-default{
+    background-color: none;
+}
+
+.menu.nav.navbar-nav.secondary{
+    margin-top: 25px;
+}
+
+
+.highlighted.jumbotron{
+    padding-top: 0px;
+    padding-bottom: 0px;
+	background: #FFFFFF;
+	color:#fff;
+    height: 100%;
+	margin-top:-25px;
+
+}
+
+.service {
+    border: 1px solid #ccc;
+    padding: 30px;
+    height: auto;
+    width: 200px;
+    text-align: center;
+    border-radius: 13px;
+    margin-bottom: 15px;
+}
+
+.dash-link{
+    color: #fff;
+}
+
+
+
+
+
+
+.about-heading{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.divider{
+margin-bottom:30px;
+}
+
+.divider-options{
+margin-top:10px;
+}
+
+.dashboard-section{
+    background: #66176C;
+    height: 300px;
+}
+
+.footer{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.footer-section{
+background:#191919;
+color:#fff;
+height:100%;
+    font-size: 16px;
+}
+
+.footer-link{
+    color:#fff;
+}
+
+.footer-col{
+    border-right: 1px solid #666
+}
+
+.footer-col-left{
+    border-left: 1px solid #666
+}
+
+.footer-para{
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+
+span.submitted{
+    display: none;
+}
+
+
+
+
+
+.btn.btn-default.form-submit{
+    margin-bottom: 25px;
+    margin-left:10px;
+}
+
+
+/*home-page hero*/
+.tagman-homepage{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" http://localhost/tagmantech/sites/all/themes/bootstrap_subtheme/images/bs-gy.jpg")  no-repeat;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  position: relative;
+
+}
+/*end*/
+
+/*capabilities home page*/
+.background-image-capabilities{
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://actioninvest.org/sites/all/themes/bootstrap_subtheme/images/what-we-offer-update.jpg")  no-repeat;
+}
+
+.txt-white{
+  color:#FFFFFF;
+}
+
+/*capabilities end*/
+
+/*project hero*/
+
+.home-hero7{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://localhost/tagmantech/sites/all/themes/bootstrap_subtheme/images/project-page.jpg) no-repeat;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  position: relative;
+
+}
+
+.home-hero-text{
+  text-align: justify;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+
+/*fade in aimation on page load*/
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+/*man walking animation*/
+@keyframes walkanim {
+  to { background-position: 100% 0; }
+}
+@keyframes stroll {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(500%); }
+}
+
+
+
+/*end*/
+
+/*about-us image width*/
+.abus-width{
+width:500px;
+height:auto;
+
+}
+/*end*/
+
+.btn-success{
+  background-color: transparent;
+
+}
+
+/*projects page*/
+.emob{
+
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.emob img {
+height:auto;
+ width:auto;
+    max-width: 550px;
+margin-left:auto;
+margin-right:auto;
+ flex-shrink: 0;
+    min-width: 70%;
+    min-height: 60%
+object-fit: cover;
+}
